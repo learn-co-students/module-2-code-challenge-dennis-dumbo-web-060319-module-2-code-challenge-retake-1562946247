@@ -1,0 +1,6 @@
+The heroine show page should include the heroine's name (eg. Kamala Khan), her super name (eg. Ms. Marvel),
+ and her power. The power should link to the power show page.
+
+<h1><%= @heroine.name %> </h1>
+<h1><%= @heroine.super_name %></h1>
+<h1><%= link_to @heroine.power.name, powers_path%></h1>
